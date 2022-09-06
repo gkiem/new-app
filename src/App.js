@@ -27,6 +27,8 @@ function App() {
     },
 ])
 
+// !!OBS!!   () => {} is the same as function() {}   !!OBS!!
+
 //Add task
 const addTask = (task) => {
   const id = Math.floor(Math.random()*10000)+1

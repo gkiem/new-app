@@ -1,3 +1,5 @@
+import {FaTimes} from 'react-icons/fa'
+
 const Task = ({task, onDelete, onToggle}) => {
   return (
     <div className={`task ${task.reminder ?
@@ -8,7 +10,7 @@ const Task = ({task, onDelete, onToggle}) => {
             <div 
             style={{color:'red',cursor:'pointer'}}
             onClick={()=>onDelete(task.id)}>
-            X</div>
+            <FaTimes /></div>
         </h3>
         <p>{task.day}</p>
     </div>
