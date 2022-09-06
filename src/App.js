@@ -29,6 +29,7 @@ function App() {
 
 // !!OBS!!   () => {} is the same as function() {}   !!OBS!!
 
+// !!OBS!!   ? "something if statement is true" : "something if statement is false"  !!OBS!!
 //Add task
 const addTask = (task) => {
   const id = Math.floor(Math.random()*10000)+1
